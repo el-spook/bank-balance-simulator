@@ -1,38 +1,43 @@
+/* Make the main div centred and within a box */
 .App {
   text-align: center;
+  max-width: 600px; 
+  background-color: rgb(216, 216, 216);
+  margin: 150px auto 10px auto;
+  padding: 40px 20px;
+  border-radius: 5px;
+  border: 3px solid black;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Give the h1 space: */
+h1 {
+  margin-bottom: 50px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Style the current balance to stand out and have space: */
+h2 {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 50px;
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Create space between the form and p element below */
+form {
+  margin-bottom: 20px;
+}
+/* Style the buttons and input field */
+button, input {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+button {
+  background-color: black;
   color: white;
+  border: black 1px solid;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+  width: 160px;
 }
